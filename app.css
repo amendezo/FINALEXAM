@@ -1,13 +1,18 @@
 .box{
-    background: rgb(0, 128, 128) ;
-    max-width: 530px;
-    margin-top: 10px;
-    border-radius: 10px;
- }
- .nums{
-    max-width: 530px;
- }
- #data{
-    color: red;
- }
-
+   max-width: 530px;
+   margin-top: 10px;
+   border-radius: 5px;
+}
+.nums{
+   max-width: 530px;
+   
+}
+#data{
+   color: red;
+}
+.submit{
+    text-align: left;
+}
+.result{
+    width:530px;
+}
