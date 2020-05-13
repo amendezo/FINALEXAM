@@ -9,36 +9,39 @@
     <body>
         <div>
             <center>
-                <div class = 'container box'>
-                    <h3>
-                       Final EXAM
+                <div class = 'container bg-info box'>
+                    <h3 class="text-danger">
+                        Final Exam
                     </h3>
                     <p>
-                        Find all even numbers between two numbers 
+                        Find all the even numbers between two numbers
                     </p>
                 </div> 
                 <div class="container nums">
                     <div class = "row">
-                        <div class="col-6 col-lg-6">
+                        <div class="col-6 col-lg-6 text-success">
                             <form id = "numbers1" action="index.html">
                                 <label for="number1">Number 1:</label><br>
-                                <input id = "number1">
+                                <input id = "number1" class = "text-success">
                             </form>
                         </div>
-                        <div class="col-6 col-lg-6">
+                        <div class="col-6 col-lg-6 text-success">
                             <form id="numbers2" action="index.html">
                                 <label for="number2">Number 2:</label><br>
-                                <input id = "number2">
+                                <input id = "number2" class = "text-success">
                             </form>
                         </div>
                     </div>
                 </div>
-                <button onclick="printPrimes()" class="btn btn-outline-primary">Submit</button>
-                <div>
-                    <p id="prime_num"></p>
+                <div class = "col-6">
+                    <button onclick="printEvens()" class="btn btn-outline-warning submit">Submit</button>
                 </div>
+                <div class="col-6"></div>
+                
                 <div>
-                    <p id = "data"></p>
+                    
+                    <h2 class = "text-success calc"> Calculation Result:</h2>
+                    <textarea class="md-textarea result" rows = "5" cols = "10"></textarea>
                 </div>
             </center>
 
